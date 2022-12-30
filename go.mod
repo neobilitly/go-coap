@@ -8,7 +8,7 @@ require (
 	github.com/pion/udp v0.1.2-0.20221011090648-2589407f52c9
 	github.com/stretchr/testify v1.8.0
 	go.uber.org/atomic v1.10.0
-	golang.org/x/exp v0.0.0-20221126150942-6ab00d035af9
+	golang.org/x/exp v0.0.0-20221230185412-738e83a70c30
 	golang.org/x/net v0.2.0
 	golang.org/x/sync v0.1.0
 )
