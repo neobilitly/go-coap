@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	piondtls "github.com/pion/dtls/v2"
+	piondtls "github.com/neobilitly/dtls/v2"
 	"github.com/plgd-dev/go-coap/v3/dtls"
 	"github.com/plgd-dev/go-coap/v3/examples/dtls/pki"
 )

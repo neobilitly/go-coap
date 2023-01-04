@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pion/dtls/v2"
+	"github.com/neobilitly/dtls/v2"
 	"github.com/plgd-dev/go-coap/v3/dtls/server"
 	"github.com/plgd-dev/go-coap/v3/message"
 	"github.com/plgd-dev/go-coap/v3/message/codes"

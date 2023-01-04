@@ -25,7 +25,7 @@ The go-coap provides servers and clients for DTLS, TCP-TLS, UDP, TCP in golang l
 * request multiplexer
 * multicast
 * CoAP NoResponse option in CoAP [RFC 7967][coap-noresponse]
-* CoAP over DTLS [pion/dtls][pion-dtls]
+* CoAP over DTLS [neobility/dtls][pion-dtls]
 * Too many requests response code [RFC 8516][coap-429]
 
 [coap]: http://tools.ietf.org/html/rfc7252
@@ -33,7 +33,7 @@ The go-coap provides servers and clients for DTLS, TCP-TLS, UDP, TCP in golang l
 [coap-block-wise-transfers]: https://tools.ietf.org/html/rfc7959
 [coap-observe]: https://tools.ietf.org/html/rfc7641
 [coap-noresponse]: https://tools.ietf.org/html/rfc7967
-[pion-dtls]: https://github.com/pion/dtls
+[pion-dtls]: https://github.com/neobility/dtls
 [coap-429]: https://datatracker.ietf.org/doc/html/rfc8516
 
 ## Requirements
