@@ -6,9 +6,9 @@ import (
 	"hash/crc64"
 	"math"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	coapSync "github.com/plgd-dev/go-coap/v3/pkg/sync"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	coapSync "github.com/neobilitly/go-coap/v3/pkg/sync"
 	"golang.org/x/sync/semaphore"
 )
 

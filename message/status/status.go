@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/pool"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/plgd-dev/go-coap/v3/test/net"
+	"github.com/neobilitly/go-coap/v3/test/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

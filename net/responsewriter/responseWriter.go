@@ -3,10 +3,10 @@ package responsewriter
 import (
 	"io"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/noresponse"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/noresponse"
+	"github.com/neobilitly/go-coap/v3/message/pool"
 )
 
 type Client interface {

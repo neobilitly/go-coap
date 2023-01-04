@@ -8,8 +8,8 @@ import (
 	"time"
 
 	piondtls "github.com/neobilitly/dtls/v2"
-	"github.com/plgd-dev/go-coap/v3/dtls"
-	"github.com/plgd-dev/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/dtls"
+	"github.com/neobilitly/go-coap/v3/net"
 )
 
 func ExampleConn_Get() {

@@ -7,17 +7,17 @@ import (
 	"net"
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	coapNet "github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/net/blockwise"
-	"github.com/plgd-dev/go-coap/v3/net/client"
-	limitparallelrequests "github.com/plgd-dev/go-coap/v3/net/client/limitParallelRequests"
-	"github.com/plgd-dev/go-coap/v3/net/observation"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
-	"github.com/plgd-dev/go-coap/v3/options/config"
-	coapErrors "github.com/plgd-dev/go-coap/v3/pkg/errors"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	coapNet "github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/net/blockwise"
+	"github.com/neobilitly/go-coap/v3/net/client"
+	limitparallelrequests "github.com/neobilitly/go-coap/v3/net/client/limitParallelRequests"
+	"github.com/neobilitly/go-coap/v3/net/observation"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/options/config"
+	coapErrors "github.com/neobilitly/go-coap/v3/pkg/errors"
 )
 
 type InactivityMonitor interface {

@@ -11,14 +11,14 @@ import (
 	"time"
 
 	piondtls "github.com/neobilitly/dtls/v2"
-	"github.com/plgd-dev/go-coap/v3/dtls"
-	"github.com/plgd-dev/go-coap/v3/examples/dtls/pki"
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/mux"
-	"github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/options"
-	"github.com/plgd-dev/go-coap/v3/udp/client"
+	"github.com/neobilitly/go-coap/v3/dtls"
+	"github.com/neobilitly/go-coap/v3/examples/dtls/pki"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/mux"
+	"github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/options"
+	"github.com/neobilitly/go-coap/v3/udp/client"
 )
 
 func onNewConn(cc *client.Conn) {

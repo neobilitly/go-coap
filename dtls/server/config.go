@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	"github.com/plgd-dev/go-coap/v3/net/monitor/inactivity"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
-	"github.com/plgd-dev/go-coap/v3/options/config"
-	udpClient "github.com/plgd-dev/go-coap/v3/udp/client"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/net/monitor/inactivity"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/options/config"
+	udpClient "github.com/neobilitly/go-coap/v3/udp/client"
 )
 
 // The HandlerFunc type is an adapter to allow the use of

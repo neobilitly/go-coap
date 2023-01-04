@@ -3,9 +3,9 @@ package options
 import (
 	"time"
 
-	dtlsServer "github.com/plgd-dev/go-coap/v3/dtls/server"
-	udpClient "github.com/plgd-dev/go-coap/v3/udp/client"
-	udpServer "github.com/plgd-dev/go-coap/v3/udp/server"
+	dtlsServer "github.com/neobilitly/go-coap/v3/dtls/server"
+	udpClient "github.com/neobilitly/go-coap/v3/udp/client"
+	udpServer "github.com/neobilitly/go-coap/v3/udp/server"
 )
 
 // TransmissionOpt transmission options.

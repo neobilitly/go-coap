@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	"github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/udp"
-	"github.com/plgd-dev/go-coap/v3/udp/client"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/udp"
+	"github.com/neobilitly/go-coap/v3/udp/client"
 )
 
 func ExampleConn_Get() {

@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	coapNet "github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/net/blockwise"
-	"github.com/plgd-dev/go-coap/v3/net/monitor/inactivity"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
-	"github.com/plgd-dev/go-coap/v3/pkg/cache"
-	coapSync "github.com/plgd-dev/go-coap/v3/pkg/sync"
-	"github.com/plgd-dev/go-coap/v3/udp/client"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	coapNet "github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/net/blockwise"
+	"github.com/neobilitly/go-coap/v3/net/monitor/inactivity"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/pkg/cache"
+	coapSync "github.com/neobilitly/go-coap/v3/pkg/sync"
+	"github.com/neobilitly/go-coap/v3/udp/client"
 )
 
 type Server struct {

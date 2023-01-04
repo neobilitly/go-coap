@@ -5,17 +5,17 @@ import (
 	"time"
 
 	"github.com/neobilitly/dtls/v2"
-	"github.com/plgd-dev/go-coap/v3/dtls/server"
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	coapNet "github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/net/blockwise"
-	"github.com/plgd-dev/go-coap/v3/net/monitor/inactivity"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
-	"github.com/plgd-dev/go-coap/v3/options"
-	"github.com/plgd-dev/go-coap/v3/udp"
-	udpClient "github.com/plgd-dev/go-coap/v3/udp/client"
+	"github.com/neobilitly/go-coap/v3/dtls/server"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	coapNet "github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/net/blockwise"
+	"github.com/neobilitly/go-coap/v3/net/monitor/inactivity"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/options"
+	"github.com/neobilitly/go-coap/v3/udp"
+	udpClient "github.com/neobilitly/go-coap/v3/udp/client"
 )
 
 var DefaultConfig = func() udpClient.Config {

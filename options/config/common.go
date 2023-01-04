@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	"github.com/plgd-dev/go-coap/v3/net/blockwise"
-	"github.com/plgd-dev/go-coap/v3/net/client"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
-	"github.com/plgd-dev/go-coap/v3/pkg/runner/periodic"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/net/blockwise"
+	"github.com/neobilitly/go-coap/v3/net/client"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/pkg/runner/periodic"
 )
 
 type (

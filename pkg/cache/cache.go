@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"github.com/plgd-dev/go-coap/v3/pkg/sync"
+	"github.com/neobilitly/go-coap/v3/pkg/sync"
 	"go.uber.org/atomic"
 )
 

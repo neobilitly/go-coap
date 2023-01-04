@@ -6,12 +6,12 @@ import (
 	"fmt"
 
 	piondtls "github.com/neobilitly/dtls/v2"
-	"github.com/plgd-dev/go-coap/v3/dtls"
-	"github.com/plgd-dev/go-coap/v3/mux"
-	"github.com/plgd-dev/go-coap/v3/net"
-	"github.com/plgd-dev/go-coap/v3/options"
-	"github.com/plgd-dev/go-coap/v3/tcp"
-	"github.com/plgd-dev/go-coap/v3/udp"
+	"github.com/neobilitly/go-coap/v3/dtls"
+	"github.com/neobilitly/go-coap/v3/mux"
+	"github.com/neobilitly/go-coap/v3/net"
+	"github.com/neobilitly/go-coap/v3/options"
+	"github.com/neobilitly/go-coap/v3/tcp"
+	"github.com/neobilitly/go-coap/v3/udp"
 )
 
 // ListenAndServe Starts a server on address and network specified Invoke handler

@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/dsnet/golib/memfile"
-	"github.com/plgd-dev/go-coap/v3/message"
-	"github.com/plgd-dev/go-coap/v3/message/codes"
-	"github.com/plgd-dev/go-coap/v3/message/pool"
-	"github.com/plgd-dev/go-coap/v3/net/responsewriter"
+	"github.com/neobilitly/go-coap/v3/message"
+	"github.com/neobilitly/go-coap/v3/message/codes"
+	"github.com/neobilitly/go-coap/v3/message/pool"
+	"github.com/neobilitly/go-coap/v3/net/responsewriter"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
